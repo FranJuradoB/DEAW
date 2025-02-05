@@ -8,13 +8,13 @@ Configurar Git definiendo el nombre del usuario, el correo electrónico y activa
 
 Mostrar la configuración final:
 
-![img35](/screenshots/35.jpg)
+![img35](./screenshots/35.jpg)
 
 ### Ejercicio 2
 
 Crear un repositorio nuevo con el nombre libro y mostrar su contenido.
 
-![img36](/screenshots/36.jpg)
+![img36](./screenshots/36.jpg)
 
 ### Ejercicio 3
 
@@ -30,15 +30,15 @@ Comprobar de nuevo el estado del repositorio.
 Añadir el fichero a la zona de intercambio temporal.
 Volver a comprobar una vez más el estado del repositorio.
 
-![img37](/screenshots/37.jpg)
+![img37](./screenshots/37.jpg)
 
-![img38](/screenshots/38.jpg)
+![img38](./screenshots/38.jpg)
 
 ### Ejercicio 4
 
 Realizar un commit de los últimos cambios con el mensaje "Añadido índice del libro" y ver el estado del repositorio.
 
-![img39](/screenshots/39.jpg)
+![img39](./screenshots/39.jpg)
 
 ### Ejercicio 5
 
@@ -49,13 +49,13 @@ Capítulo 2: Flujo de trabajo básico
 Capítulo 3: Gestión de ramas 
 Capítulo 4: Repositorios remotos
 
-![img40](/screenshots/40.jpg)
+![img40](./screenshots/40.jpg)
 
 Mostrar los cambios con respecto a la última versión guardada en el repositorio.
 
 Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”.
 
-![img41](/screenshots/41.jpg)
+![img41](./screenshots/41.jpg)
 
 ### Ejercicio 6
 
@@ -65,9 +65,9 @@ Cambiar el mensaje del último commit por “Añadido capítulo 3 sobre gestión
 
 Volver a mostrar los últimos cambios del repositorio.
 
-![img42](/screenshots/42.jpg)
+![img42](./screenshots/42.jpg)
 
-![img43](/screenshots/43.jpg)
+![img43](./screenshots/43.jpg)
 
 ## Ejercicios de manejo del historial de cambios
 
@@ -83,7 +83,7 @@ Añadir los cambios a la zona de intercambio temporal.
 
 Hacer un commit de los cambios con el mensaje “Añadido capítulo 1.” Volver a mostrar el historial de cambios del repositorio.
 
-![img44](/screenshots/44.jpg)
+![img44](./screenshots/44.jpg)
 
 ### Ejercicio 2
 
@@ -97,7 +97,7 @@ Hacer un commit de los cambios con el mensaje “Añadido capítulo 2.”
 
 Mostrar las diferencias entre la última versión y dos versiones anteriores.
 
-![img45](/screenshots/45.jpg)
+![img45](./screenshots/45.jpg)
 
 ### Ejercicio 3
 
@@ -111,7 +111,7 @@ Hacer un commit de los cambios con el mensaje “Añadido capítulo 3.”
 
 Mostrar las diferencias entre la primera y la última versión del repositorio.
 
-![img46](/screenshots/46.jpg)
+![img46](./screenshots/46.jpg)
 
 ### Ejercicio 4
 
@@ -125,7 +125,7 @@ Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice
 
 Mostrar quién ha hecho cambios sobre el fichero indice.txt.
 
-![img47](/screenshots/47.jpg)
+![img47](./screenshots/47.jpg)
 
 ## Ejercicios de deshacer cambios
 
@@ -139,7 +139,7 @@ Deshacer los cambios realizados en el fichero indice.txt para volver a la versi�
 
 Volver a comprobar el estado del repositorio.
 
-![img48](/screenshots/48.jpg)
+![img48](./screenshots/48.jpg)
 
 ### Ejercicio 2
 
@@ -157,7 +157,7 @@ Deshacer los cambios realizados en el fichero indice.txt para volver a la versi�
 
 Volver a comprobar el estado del repositorio.
 
-![img49](/screenshots/49.jpg)
+![img49](./screenshots/49.jpg)
 
 ### Ejercicio 3
 
@@ -179,7 +179,7 @@ Deshacer los cambios realizados para volver a la versión del repositorio.
 
 Volver a comprobar el estado del repositorio.
 
-![img50](/screenshots/50.jpg)
+![img50](./screenshots/50.jpg)
 
 ### Ejercicio 4
 
@@ -201,7 +201,7 @@ Deshacer el último commit y los cambios anteriores del directorio de trabajo vo
 
 Comprobar de nuevo el historial y el estado del repositorio.
 
-![img51](/screenshots/51.jpg)
+![img51](./screenshots/51.jpg)
 
 ## Ejercicios de gestión de ramas
 
@@ -209,7 +209,7 @@ Comprobar de nuevo el historial y el estado del repositorio.
 
 Crear una nueva rama bibliografia y mostrar las ramas del repositorio.
 
-![img52](/screenshots/52.jpg)
+![img52](./screenshots/52.jpg)
 
 ### Ejercicio 2
 
@@ -223,7 +223,7 @@ Hacer un commit con el mensaje “Añadido capítulo 4.”
 
 Mostrar la historia del repositorio incluyendo todas las ramas.
 
-![img53](/screenshots/53.jpg)
+![img53](./screenshots/53.jpg)
 
 ### Ejercicio 3
 
@@ -239,7 +239,7 @@ Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.”
 
 Mostrar la historia del repositorio incluyendo todas las ramas.
 
-![img54](/screenshots/54.jpg)
+![img54](./screenshots/54.jpg)
 
 ### Ejercicio 4
 
@@ -251,7 +251,7 @@ Eliminar la rama bibliografia.
 
 Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
 
-![img55](/screenshots/55.jpg)
+![img55](./screenshots/55.jpg)
 
 ### Ejercicio 5
 
@@ -283,7 +283,7 @@ Añadir los cambios a la zona de intercambio temporal y hacer un commit con el m
 
 Mostrar la historia del repositorio incluyendo todas las ramas.
 
-![img56](/screenshots/56.jpg)
+![img56](./screenshots/56.jpg)
 
 ## Ejercicios de repositorios remotos
 
@@ -291,13 +291,13 @@ Mostrar la historia del repositorio incluyendo todas las ramas.
 
 Crear un nuevo repositorio público en GitHub con el nombre libro-git.
 
-![img57](/screenshots/57.jpg)
+![img57](./screenshots/57.jpg)
 
 Añadirlo al repositorio local del libro.
 
 Mostrar todos los repositorios remotos configurados.
 
-![img58](/screenshots/58.jpg)
+![img58](./screenshots/58.jpg)
 
 ### Ejercicio 2
 
@@ -305,9 +305,9 @@ Añadir los cambios del repositorio local al repositorio remoto de GitHub.
 
 Acceder a GitHub y comprobar que se han subido los cambios mostrando el historial de versiones.
 
-![img59](/screenshots/59.jpg)
+![img59](./screenshots/59.jpg)
 
-![img60](/screenshots/60.jpg)
+![img60](./screenshots/60.jpg)
 
 ### Ejercicio 3
 
@@ -323,7 +323,7 @@ Hacer un commit con el mensaje “Añadido autor.”
 
 Subir los cambios al repositorio remoto.
 
-![img60b](/screenshots/60b.jpg)
+![img60b](./screenshots/60b.jpg)
 
 Debemos tener permisos por parte del compañero para poder subir cambios al repositorio.
 
@@ -346,14 +346,14 @@ Subir los cambios de la rama autoria al repositorio remoto en GitHub.
 Hacer un Pull Request de los cambios en la rama autoria.
 
 Le damos al botón fork y creamos un nombre, que en nuestro caso le pondremos solamente el número 2.
-![img61](/screenshots/61.jpg)
+![img61](./screenshots/61.jpg)
 
-![img62](/screenshots/62.jpg)
+![img62](./screenshots/62.jpg)
 
-![img63](/screenshots/63.jpg)
+![img63](./screenshots/63.jpg)
 
-![img64](/screenshots/64.jpg)
+![img64](./screenshots/64.jpg)
 
-![img65](/screenshots/65.jpg)
+![img65](./screenshots/65.jpg)
 
 
