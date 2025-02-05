@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Ejercicios1 - My Docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Ejercicios1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../Ejercicios2/" class="nav-link">Ejercicios Git y GitHub 2</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../Ejercicios2/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#readme" class="nav-link">Readme</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#commit" class="nav-link">Commit</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#push" class="nav-link">Push</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#ignorar-archivos" class="nav-link">Ignorar archivos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#anadir-fichero-1txt" class="nav-link">Añadir fichero 1.txt</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#crear-un-tag-y-subirlo-al-repositorio-remoto" class="nav-link">Crear un tag y subirlo al repositorio remoto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#cuenta-de-github" class="nav-link">Cuenta de GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#uso-social-de-github" class="nav-link">Uso social de GitHub</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#crear-una-tabla" class="nav-link">Crear una tabla</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#colaboradores" class="nav-link">Colaboradores</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#crear-una-rama-v02-y-anadir-un-fichero-2txt" class="nav-link">Crear una rama v0.2 y añadir un fichero 2.txt</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#crear-rama-remota-v02" class="nav-link">Crear rama remota v0.2</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#merge-directo" class="nav-link">Merge Directo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#merge-con-conflicto" class="nav-link">Merge con conflicto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#listado-de-ramas" class="nav-link">Listado de ramas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#arreglar-el-conflicto" class="nav-link">Arreglar el conflicto</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#listado-de-ramas_1" class="nav-link">Listado de ramas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>Repositorio DEAW</p>
+<p>Crear un repositorio en vuestro GitHub llamado DEAW.</p>
+<p><img alt="img1" src="../screenshots/1.jpg" />
+<img alt="img2" src="../screenshots/2.jpg" /></p>
+<p>Clonar vuestro repositorio en local.</p>
+<p><img alt="img3" src="../screenshots/3.jpg" /></p>
+<p>Le metemos mkdocs instalándolo primero.</p>
+<p><img alt="img4" src="../screenshots/4.jpg" /></p>
+<p>Creamos nuevo proyecto.
+<img alt="img5" src="../screenshots/5.jpg" /></p>
+<p>Podemos modificar el archivo mkdocs.yml con <code>nano</code></p>
+<p><img alt="img6" src="../screenshots/6.jpg" /></p>
+<h2 id="readme">Readme</h2>
+<p>Crear en vuestro repositorio local un documento README.md
+.
+<img alt="img7" src="../screenshots/7.jpg" /></p>
+<p><img alt="img8" src="../screenshots/8.jpg" /></p>
+<p>Agregamos el archivo a nuestro repositorio con <code>git add .</code></p>
+<p><img alt="img9" src="../screenshots/9.jpg" /></p>
+<h2 id="commit">Commit</h2>
+<p>Realizar un commit inicial con el comentario Comenzamos con los ejercicios de Git</p>
+<p><img alt="img10" src="../screenshots/10.jpg" /></p>
+<h2 id="push">Push</h2>
+<p>Subir los cambios al repositorio remoto</p>
+<p><img alt="img11" src="../screenshots/11.jpg" /></p>
+<p><img alt="img12" src="../screenshots/12.jpg" /></p>
+<h2 id="ignorar-archivos">Ignorar archivos</h2>
+<p>Crear en el repositorio local un fichero llamado privado.txt</p>
+<p>Crear en el repositorio local una carpeta llamada privada</p>
+<p><img alt="img13" src="../screenshots/13.jpg" /></p>
+<p>Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git. </p>
+<p>Debemos crear primero el archivo <code>.gitignore</code> y lo modificamos poniendo lo que nos interese ocultar:</p>
+<p><img alt="img14" src="../screenshots/14.jpg" /></p>
+<p><img alt="img15" src="../screenshots/15.jpg" /></p>
+<p>Vemos que directamente nos lo oculta: </p>
+<p><img alt="img16" src="../screenshots/16.jpg" /></p>
+<h2 id="anadir-fichero-1txt">Añadir fichero 1.txt</h2>
+<p>Creamos primero el archivo de texto con <code>touch 1.txt</code> y comprobamos su estado con <code>git status</code></p>
+<p><img alt="img17" src="../screenshots/17.jpg" /></p>
+<p>Posteriormente lo añadimos con <code>git add .</code></p>
+<h2 id="crear-un-tag-y-subirlo-al-repositorio-remoto">Crear un tag y subirlo al repositorio remoto</h2>
+<p>Ahora creamos una etiqueta con el comando <code>git tag "nombre"</code> y comprobamos que la ha creado listándola con <code>git tag</code></p>
+<p><img alt="img18" src="../screenshots/18.jpg" /></p>
+<p>Y hacemos commit de dicho cambio: </p>
+<p><img alt="img19" src="../screenshots/19.jpg" /></p>
+<h2 id="cuenta-de-github">Cuenta de GitHub</h2>
+<p>Ahora vamos a personalizar la cuenta de GitHub, en cuanto a su apariencia. Concretamente podemos modificar la foto de perfil, que por razones de privacidad no pondré la mía. Nos ceñimos a una imagen cualquiera, pero se puede modificar en la siguiente interfaz.</p>
+<p><img alt="img20" src="../screenshots/20.jpg" /></p>
+<p>También podemos modificar el llamado doble-factor de autenticación, para tener una capa extra de protección en nuestra cuenta.</p>
+<p><img alt="img21" src="../screenshots/21.jpg" /></p>
+<h2 id="uso-social-de-github">Uso social de GitHub</h2>
+<p>Preguntar los nombres de usuario de GitHub de 2 de tus compañeros de clase, búscalos y sígueles.</p>
+<p>Seguir los repositorios DEAW del resto de tus compañeros.</p>
+<p><img alt="img22" src="../screenshots/22.jpg" /></p>
+<p>Añadir una estrella a los repositorios DEAW del resto de tus compañeros.</p>
+<p><img alt="img23" src="../screenshots/23.jpg" /></p>
+<h2 id="crear-una-tabla">Crear una tabla</h2>
+<p>Crear una tabla en el fichero README.md con la información básica de los compañeros de clase.</p>
+<p><img alt="img24" src="../screenshots/24.jpg" /></p>
+<h2 id="colaboradores">Colaboradores</h2>
+<p>Añadir a un compañero de clase como colaborador del repositorio DEAW.</p>
+<p><img alt="img25" src="../screenshots/25.jpg" />
+<img alt="img26" src="../screenshots/26.jpg" /></p>
+<h2 id="crear-una-rama-v02-y-anadir-un-fichero-2txt">Crear una rama v0.2 y añadir un fichero 2.txt</h2>
+<p>Crear una rama v0.2 y cambiar a esa rama.</p>
+<p>Con la opción <code>git checkout -b v0.2</code> creamos la rama y nos cambiamos automáticamente a ella.</p>
+<p><img alt="img27" src="../screenshots/27.jpg" /></p>
+<p>Creamos el archivo de texto con <code>touch 2.txt</code> y lo modificamos con <code>nano 2.txt</code> y finalmente comprobamos como siempre con <code>git status</code></p>
+<h2 id="crear-rama-remota-v02">Crear rama remota v0.2</h2>
+<p>Creamos la rama remota con el comando <code>git push -u origin v0.2</code></p>
+<p><img alt="img28" src="../screenshots/28.jpg" /></p>
+<h2 id="merge-directo">Merge Directo</h2>
+<p>Posicionarse en la rama master.</p>
+<p>Hacer un merge de la rama v0.2 en la rama master.</p>
+<p><img alt="img29" src="../screenshots/29.jpg" /></p>
+<h2 id="merge-con-conflicto">Merge con conflicto</h2>
+<p>En la rama master poner Hola en el fichero 1.txt y hacer commit.</p>
+<p>Posicionarse en la rama v0.2 y poner Adios en el fichero 1.txt y hacer commit.</p>
+<p>Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2</p>
+<p><img alt="img30." src="../screenshots/30.jpg" /></p>
+<h2 id="listado-de-ramas">Listado de ramas</h2>
+<p><img alt="img31" src="../screenshots/31.jpg" /></p>
+<h2 id="arreglar-el-conflicto">Arreglar el conflicto</h2>
+<p><img alt="img32" src="../screenshots/32.jpg" /></p>
+<h2 id="listado-de-ramas_1">Listado de ramas</h2>
+<p>Tenemos varias opciones para ello. Actualmente no me muestra como debería por estar usando window con bash en vez de linux:</p>
+<p><img alt="img33" src="../screenshots/33.jpg" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
